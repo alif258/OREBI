@@ -1,9 +1,5 @@
 import Container from '../Container'
 import Producs from '../Producs'
-import productsone from '../../assets/productsone.png'
-import productstwo from '../../assets/productstwo.png'
-import productsthree from '../../assets/productsthree.png'
-import productsfour from '../../assets/productsfour.png'
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import NextArrow from '../NextArrow'
@@ -30,24 +26,24 @@ const Arrivals = () => {
           <div className="-mx-5">
             <Slider  {...settings} >
               <div>
-                <Producs productImg={productsone} productBadge={'New'} />
+                <Producs productImg={'/images/productsone.png'} productBadge={'New'} />
 
               </div>
               <div>
-                <Producs productImg={productstwo} productBadge={'10%'} />
+                <Producs productImg={'/images/productstwo.png'} productBadge={'10%'} />
 
               </div>
               <div>
-                <Producs productImg={productsthree} productBadge={'New'} />
+                <Producs productImg={'/images/productsthree.png'} productBadge={'New'} />
               </div>
               <div>
-                <Producs productImg={productsfour} productBadge={'50%'} />
+                <Producs productImg={'/images/productsfour.png'} productBadge={'50%'} />
               </div>
               <div>
-                <Producs productImg={productsone} productBadge={'10%'} />
+                <Producs productImg={'/images/productsone.png'} productBadge={'10%'} />
               </div>
               <div>
-                <Producs productImg={productstwo} productBadge={'New'} />
+                <Producs productImg={'/images/productstwo.png'} productBadge={'New'} />
               </div>
             </Slider>
           </div>

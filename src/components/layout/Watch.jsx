@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom"
 import Container from "../Container"
 import Image from "../Image"
-import watchone from '../../assets/watchone.png'
 
 const Watch = () => {
     return (
         <>
             <Container>
-                <div className="h-[370px] flex bg-[url(/src/assets/watchbg.png)] mb-32 ">
+                <div className="h-[370px] flex bg-[url(/images/watchbg.png)] mb-32 ">
                     <div className="">
-                        <Image src={watchone} />
+                        <Image src={'/images/watchone.png'} />
                     </div>
                     <div className="py-[60px] ml-12 ">
                         <h6 className="font-bold text-[40px] mb-[38px]">Phone of the year</h6>

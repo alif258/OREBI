@@ -1,6 +1,5 @@
 import Container from '../Container'
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import footerlogo from '../../assets/footerlogo.png'
 import Image from '../Image';
 import Flex from '../Flex';
 import { Link } from 'react-router-dom';
@@ -104,7 +103,7 @@ const Footer = () => {
 
 
               <div className="logo">
-                <Image src={footerlogo} />
+                <Image src={'/images/footerlogo.png'} />
               </div>
             </div>
 

@@ -1,10 +1,6 @@
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Logo from '../../assets/logo.png'
-import EN from '../../assets/en.png'
-import Menu from '../../assets/menu.png'
-import RU from '../../assets/ru.png'
 import { Link } from 'react-router-dom'
 import { FaSearch, FaUser,FaShoppingCart   } from "react-icons/fa"
 import { TiArrowSortedDown } from "react-icons/ti";
@@ -17,7 +13,7 @@ const Header = () => {
     <>
       <Container>
         <Flex className={"justify-between py-8"}>
-          <div className=""><Link to={'/'}><Image src={Logo} /></Link></div>
+          <div className=""><Link to={'/'}><Image src={'/images/logo.png'} /></Link></div>
           <div className="">
             <ul className='font-normal text-[14px] text-[#767676]'>
               <Flex className={'gap-10'}>
@@ -41,8 +37,8 @@ const Header = () => {
           </div>
           <div className="">
             <Flex className={'items-center gap-5'}>
-              <div className=""><Image src={EN} /></div>
-              <div className=""><Image src={RU} /></div>
+              <div className=""><Image src={'/images/en.png'} /></div>
+              <div className=""><Image src={'/images/ru.png'} /></div>
 
             </Flex>
           </div>
@@ -54,7 +50,7 @@ const Header = () => {
         <Container className={'flex justify-between items-center'}>
           <div className="">
             <Flex className={'gap-[10px] '}>
-              <Image src={Menu} />
+              <Image src={'/images/menu.png'} />
               <p className='text-[14px ] text-[#262626]'>Shop by Category</p>
             </Flex>
           </div>
