@@ -1,9 +1,9 @@
 import Container from '../Container'
 import Producs from '../Producs'
-import p1 from '../../assets/Products1.png'
-import p2 from '../../assets/Products2.png'
-import p3 from '../../assets/Products3.png'
-import p4 from '../../assets/Products4.png'
+import p1 from '../../assets/products1.png'
+import p2 from '../../assets/products2.png'
+import p3 from '../../assets/products3.png'
+import p4 from '../../assets/products4.png'
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import NextArrow from '../NextArrow'

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom"
 import Container from "../Container"
 import Image from "../Image"
-import Watch1 from '../../assets/Watch.png'
+import Watch1 from '../../assets/watch.png'
 
 const Watch = () => {
     return (
         <>
             <Container>
-                <div className="h-[370px] flex bg-[url(/src/assets/WatchBg.png)] mb-32 ">
+                <div className="h-[370px] flex bg-[url(/src/assets/watchBg.png)] mb-32 ">
                     <div className="">
                         <Image src={Watch1} />
                     </div>

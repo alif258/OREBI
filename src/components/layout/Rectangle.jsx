@@ -2,8 +2,8 @@ import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
 import Two from '../../assets/2.png'
-import Car from '../../assets/Shape.png'
-import Path from '../../assets/Path.png'
+import Car from '../../assets/shape.png'
+import Path from '../../assets/path.png'
 
 
 const Rectangle = () => {
