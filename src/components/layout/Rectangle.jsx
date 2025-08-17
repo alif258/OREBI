@@ -1,9 +1,9 @@
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Two from '../../assets/two.png'
-import Car from '../../assets/shape.png'
-import Path from '../../assets/path.png'
+import two from '../../assets/two.png'
+import car from '../../assets/shape.png'
+import path from '../../assets/path.png'
 
 
 const Rectangle = () => {
@@ -12,15 +12,15 @@ const Rectangle = () => {
             <Container>
                 <Flex className={'justify-between'}>
                     <div className="flex items-center gap-4">
-                        <Image src={Two} />
+                        <Image src={two} />
                         <p className='text-[#6D6D6D] text-[16px] '>Two years warranty</p>
                     </div>
                     <div className="flex items-center gap-4">
-                        <Image src={Car} />
+                        <Image src={car} />
                         <p className='text-[#6D6D6D] text-[16px] '>Free shipping</p>
                     </div>
                         <div className="flex items-center gap-4">
-                        <Image src={Path} />
+                        <Image src={path} />
                         <p className='text-[#6D6D6D] text-[16px] '>Return policy in 30 days</p>
                     </div>
               
