@@ -1,7 +1,7 @@
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Two from '../../assets/2.png'
+import Two from '../../assets/two.png'
 import Car from '../../assets/shape.png'
 import Path from '../../assets/path.png'
 
