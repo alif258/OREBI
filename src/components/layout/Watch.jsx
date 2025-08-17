@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Container from "../Container"
 import Image from "../Image"
-import watchone from '../../assets/watch.png'
+import watchone from '../../assets/watchone.png'
 
 const Watch = () => {
     return (
