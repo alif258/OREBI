@@ -1,6 +1,6 @@
 import Container from '../Container'
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import Footerlogo from '../../assets/footerlogo.png'
+import footerlogo from '../../assets/footerlogo.png'
 import Image from '../Image';
 import Flex from '../Flex';
 import { Link } from 'react-router-dom';
