@@ -104,7 +104,7 @@ const Footer = () => {
 
 
               <div className="logo">
-                <Image src={Footerlogo} />
+                <Image src={footerlogo} />
               </div>
             </div>
 
