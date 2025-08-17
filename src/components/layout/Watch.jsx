@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Container from "../Container"
 import Image from "../Image"
-import Watch1 from '../../assets/watch.png'
+import Watchone from '../../assets/watch.png'
 
 const Watch = () => {
     return (
@@ -9,7 +9,7 @@ const Watch = () => {
             <Container>
                 <div className="h-[370px] flex bg-[url(/src/assets/watchbg.png)] mb-32 ">
                     <div className="">
-                        <Image src={Watch1} />
+                        <Image src={Watchone} />
                     </div>
                     <div className="py-[60px] ml-12 ">
                         <h6 className="font-bold text-[40px] mb-[38px]">Phone of the year</h6>
