@@ -1,9 +1,9 @@
 import Container from "../Container"
 import Producs from "../Producs"
-import Best1 from '../../assets/best1.png'
-import Best2 from '../../assets/best2.png'
-import Best3 from '../../assets/best3.png'
-import Best4 from '../../assets/best4.png'
+import Bestone from '../../assets/bestone.png'
+import Besttwo from '../../assets/besttwo.png'
+import Bestthree from '../../assets/bestthree.png'
+import Bestfour from '../../assets/bestfour.png'
 
 const BestSelars = () => {
     return (
@@ -12,10 +12,10 @@ const BestSelars = () => {
                 <div className="mt-[118px] mb-[130px]">
                     <h1 className='font-bold text-[40px] pb-12'>Our Bestsellers</h1>
                     <div className="flex -mx-5">
-                            <Producs Color={'Black'} productImg={Best1} productBadge={'New'} />
-                            <Producs Color={'Black'} productImg={Best2} productBadge={'New'} />
-                            <Producs Color={'Black'} productImg={Best3} productBadge={'New'} />
-                            <Producs Color={'Black'} productImg={Best4} productBadge={'New'} />
+                            <Producs Color={'Black'} productImg={Bestone} productBadge={'New'} />
+                            <Producs Color={'Black'} productImg={Besttwo} productBadge={'New'} />
+                            <Producs Color={'Black'} productImg={Bestthree} productBadge={'New'} />
+                            <Producs Color={'Black'} productImg={Bestfour} productBadge={'New'} />
                     </div>
                 </div>
             </Container>

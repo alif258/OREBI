@@ -7,7 +7,7 @@ const Watch = () => {
     return (
         <>
             <Container>
-                <div className="h-[370px] flex bg-[url(/src/assets/watchBg.png)] mb-32 ">
+                <div className="h-[370px] flex bg-[url(/src/assets/watchbg.png)] mb-32 ">
                     <div className="">
                         <Image src={Watch1} />
                     </div>
