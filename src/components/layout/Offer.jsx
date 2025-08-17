@@ -23,7 +23,7 @@ const Offer = () => {
                                 <Image src={Offer2} />
                             </Link>
                             <Link to={'shop'} >
-                                <Image src={Offer3} />                            </Link>
+                                <Image src={Offer3} /></Link>
                         </div>
                     </Flex>
                 </Container>

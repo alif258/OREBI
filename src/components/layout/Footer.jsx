@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import FotterLogo from '/src/assets/FotterLogo.png'
+import FotterLogo from '/src/assets/fotterLogo.png'
 import Image from '../Image';
 import Flex from '../Flex';
 import { Link } from 'react-router-dom';
