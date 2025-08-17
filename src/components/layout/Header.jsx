@@ -3,7 +3,7 @@ import Flex from '../Flex'
 import Image from '../Image'
 import Logo from '../../assets/Logo (1).png'
 import EN from '../../assets/EN.png'
-import Menu from '../../assets/menu.png'
+import Menu from '../../assets/Menu.png'
 import RU from '../../assets/RU.png'
 import { Link } from 'react-router-dom'
 import { FaSearch, FaUser,FaShoppingCart   } from "react-icons/fa"
