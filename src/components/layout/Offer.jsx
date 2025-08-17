@@ -2,9 +2,6 @@ import { Link } from 'react-router-dom'
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Offer1 from '../../assets/Offer1.png'
-import Offer2 from '../../assets/Offer2.png'
-import Offer3 from '../../assets/Offer3.png'
 
 
 const Offer = () => {
@@ -15,15 +12,15 @@ const Offer = () => {
                     <Flex className={'gap-10'}>
                         <div className="">
                             <Link to={'shop'}>
-                                <Image src={Offer1} />
+                                <Image src={'/src/assets/Offer1.png'} />
                             </Link>
                         </div>
                         <div className="gap-10 flex flex-col">
                             <Link to={'shop'}>
-                                <Image src={Offer2} />
+                                <Image src={'/src/assets/Offer2.png'} />
                             </Link>
                             <Link to={'shop'} >
-                                <Image src={Offer3} /></Link>
+                                <Image src={'/src/assets/Offer3.png'} /></Link>
                         </div>
                     </Flex>
                 </Container>
