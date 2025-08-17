@@ -1,9 +1,9 @@
 import Container from "../Container"
 import Producs from "../Producs"
-import Best1 from '/src/assets/Best1.png'
-import Best2 from '/src/assets/Best2.png'
-import Best3 from '/src/assets/Best3.png'
-import Best4 from '/src/assets/Best4.png'
+import Best1 from '../../assets/Best1.png'
+import Best2 from '../../assets/Best2.png'
+import Best3 from '../../assets/Best3.png'
+import Best4 from '../../assets/Best4.png'
 
 const BestSelars = () => {
     return (

@@ -1,9 +1,9 @@
 import Container from '../Container'
 import Producs from '../Producs'
-import SOffer1 from '/src/assets/SOffer1.png'
-import SOffer2 from '/src/assets/SOffer2.png'
-import SOffer3 from '/src/assets/SOffer3.png'
-import SOffer4 from '/src/assets/SOffer4.png'
+import SOffer1 from '../../assets/SOffer1.png'
+import SOffer2 from '../../assets/SOffer2.png'
+import SOffer3 from '../../assets/SOffer3.png'
+import SOffer4 from '../../assets/SOffer4.png'
 
 
 

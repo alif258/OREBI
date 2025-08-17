@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Offer1 from '/src/assets/Offer1.png'
-import Offer2 from '/src/assets/Offer2.png'
-import Offer3 from '/src/assets/Offer3.png'
+import Offer1 from '../../assets/Offer1.png'
+import Offer2 from '../../assets/Offer2.png'
+import Offer3 from '../../assets/Offer3.png'
 
 
 const Offer = () => {

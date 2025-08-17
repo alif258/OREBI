@@ -1,10 +1,10 @@
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Logo from '/src/assets/Logo (1).png'
-import EN from '/src/assets/EN.png'
-import Menu from '/src/assets/menu.png'
-import RU from '/src/assets/RU.png'
+import Logo from '../../assets/Logo (1).png'
+import EN from '../../assets/EN.png'
+import Menu from '../../assets/menu.png'
+import RU from '../../assets/RU.png'
 import { Link } from 'react-router-dom'
 import { FaSearch, FaUser,FaShoppingCart   } from "react-icons/fa"
 import { TiArrowSortedDown } from "react-icons/ti";

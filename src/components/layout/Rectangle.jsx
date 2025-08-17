@@ -1,9 +1,9 @@
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-import Two from '/src/assets/2.png'
-import Car from '/src/assets/Shape.png'
-import Path from '/src/assets/Path.png'
+import Two from '../../assets/2.png'
+import Car from '../../assets/Shape.png'
+import Path from '../../assets/Path.png'
 
 
 const Rectangle = () => {
