@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom'
 
 
 
-const Producs = ({ productImg, productBadge, Color }) => {
+const Producs = ({ productImg, productBadge, Color,title, price }) => {
     return (
         <>
 
-            <div className=" relative px-5 ">
+            <div className=" relative px-5  ">
                 <div className="">
                     <div className=" relative group ">
-                        <Image className='w-full' src={productImg} />
+                        <Image className='w-full bg-gray-100' src={productImg} />
                         <Badge BadgeText={productBadge} className={'absolute top-[20px] left-[20px]'} />
                         <div className="py-[25px] bg-[#FFFFFF]  w-full absolute bottom-0  opacity-0 group-hover:opacity-100 duration-700">
                             <div className="flex items-center justify-end px-[30px]  gap-4">
@@ -50,8 +50,8 @@ const Producs = ({ productImg, productBadge, Color }) => {
 
                 </div>
                 <div className="pt-6 flex items-center justify-between">
-                    <p className='text-[20px] font-bold text-[#262626]'>Basic Crew Neck Tee</p>
-                    <p className='text-[16px] text-[#767676]'>$44.00</p>
+                    <p className='text-[20px]  font-bold text-[#262626]'>{title}</p>
+                    <p className='text-[16px] text-[#767676]'>{price}</p>
                 </div>
                 <p className='tex-[16px] mt-3.5 text-[#767676] leading-[30px]'>{Color}</p>
 

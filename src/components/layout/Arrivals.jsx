@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import NextArrow from '../NextArrow'
 import PrevArrow from '../PrevArrow'
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const Arrivals = () => {
 
@@ -18,33 +20,38 @@ const Arrivals = () => {
   };
 
 
+
+  let [allData, setAlldata] = useState([])
+
+  useEffect(() => {
+    async function allDatas() {
+      let data = await axios.get('https://dummyjson.com/products')
+      setAlldata(data.data.products)
+    } allDatas()
+  }, []);
+
+
+
+
+
   return (
     <>
+
       <div>
         <Container>
           <h1 className='font-bold text-[40px] pb-12'>New Arrivals</h1>
-          <div className="-mx-5">
+          <div className="-mx-5 ">
             <Slider  {...settings} >
-              <div>
-                <Producs productImg={'/images/productsone.png'} productBadge={'New'} />
-
-              </div>
-              <div>
-                <Producs productImg={'/images/productstwo.png'} productBadge={'10%'} />
-
-              </div>
-              <div>
-                <Producs productImg={'/images/productsthree.png'} productBadge={'New'} />
-              </div>
-              <div>
-                <Producs productImg={'/images/productsfour.png'} productBadge={'50%'} />
-              </div>
-              <div>
-                <Producs productImg={'/images/productsone.png'} productBadge={'10%'} />
-              </div>
-              <div>
-                <Producs productImg={'/images/productstwo.png'} productBadge={'New'} />
-              </div>
+              {allData.map((item) =>(
+                <div>
+                  <Producs
+                    productImg={item.thumbnail}
+                    productBadge={'New'}
+                    price={`$${item.price}`}
+                    title={item.title}
+                  />
+                  </div>
+              ))}
             </Slider>
           </div>
         </Container>
